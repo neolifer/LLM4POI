@@ -6,9 +6,9 @@ Download the datasets raw data from [datasets](https://www.dropbox.com/scl/fi/te
 * Unzip datasets/nyc/raw.zip to datasets/nyc.
 * Unzip datasets/tky/raw.zip to datasets/tky.
 * Unzip datasets/ca/raw.zip to datasets/ca.
-* run '''python preprocesssing/generate_ca_raw.py'''
+* run ~~~ python preprocesssing/generate_ca_raw.py~~~ 
 
 # Preprocess
-run '''python preprocessing/run.py'''
+run ~~~ python preprocessing/run.py~~~ 
 
 
