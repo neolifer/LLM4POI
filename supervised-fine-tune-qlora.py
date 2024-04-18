@@ -1,5 +1,5 @@
-# Written by Yukang Chen
-# Some code based on https://github.com/huggingface/peft/blob/main/examples/fp4_finetuning/finetune_fp4_opt_bnb_peft.py
+# Written by Peibo Li
+# Original code based on https://github.com/dvlab-research/LongLoRA?tab=readme-ov-file
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
