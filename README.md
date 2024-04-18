@@ -62,7 +62,7 @@ python eval_next_poi.py --dataset_name {DATASET_NAME} --output_dir {your_finetun
 ## Acknowledgement
 This code is developed based on [STHGCN](https://github.com/ant-research/Spatio-Temporal-Hypergraph-Model) and [LongLoRA](https://github.com/dvlab-research/LongLoRA?tab=readme-ov-file).
 ## Citation
-Please cite the following if you use our work.
+If you find our work useful, please consider cite our paper with following:
 ```
 @inproceedings{li-2024-large,
 author = {Li, Peibo and de Rijke, Maarten and Xue, Hao and Ao, Shuang and Song, Yang and Salim, Flora D.},
