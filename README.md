@@ -56,3 +56,16 @@ run
 python eval_next_poi.py --dataset_name {DATASET_NAME} --output_dir {your_finetuned_model} --test_file "test_qa_pairs_kqt.txt"
 ```
 
+## Citation
+Please cite the following if you use our work.
+```
+@inproceedings{li-2024-large,
+author = {Li, Peibo and de Rijke, Maarten and Xue, Hao and Ao, Shuang and Song, Yang and Salim, Flora D.},
+booktitle = {SIGIR 2024: 47th international ACM SIGIR Conference on Research and Development in Information Retrieval},
+date-added = {2024-03-26 23:47:40 +0000},
+date-modified = {2024-03-26 23:48:47 +0000},
+month = {July},
+publisher = {ACM},
+title = {Large Language Models for Next Point-of-Interest Recommendation},
+year = {2024}}
+```
