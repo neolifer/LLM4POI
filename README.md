@@ -1,5 +1,11 @@
 # LLM4POI
 This repository includes the implementation of "Large Language Models for Next Point-of-Interest Recommendation".
+# Install
+Install the enviroment by running
+```
+conda env create -f environment.yml
+```
+Download the model from (https://huggingface.co/Yukang/Llama-2-7b-longlora-32k-ft)
 # Dataset
 Download the datasets raw data from [datasets](https://www.dropbox.com/scl/fi/teo5pn8t296joue5c8pim/datasets.zip?rlkey=xvcgtdd9vlycep3nw3k17lfae&st=qd21069y&dl=0).
 * Unzip datasets.zip to ./datasets
