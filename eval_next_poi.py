@@ -1,6 +1,5 @@
-# Written by Yukang Chen
-# Some code based on https://github.com/epfml/landmark-attention
-#
+# Written by Peibo Li
+# Original code based on https://github.com/dvlab-research/LongLoRA?tab=readme-ov-file
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
