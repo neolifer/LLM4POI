@@ -38,7 +38,8 @@ run
 --lr_scheduler_type "constant_with_warmup"     \
 --logging_steps 1     \
 --deepspeed "ds_configs/stage2.json" \
---tf32 True```
+--tf32 True
+```
 
 ## test
 run
