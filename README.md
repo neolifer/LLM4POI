@@ -10,8 +10,11 @@ Download the datasets raw data from [datasets](https://www.dropbox.com/scl/fi/te
 
 # Preprocess
 run ```python preprocessing/run.py```
+
 run ```python preprocessing/traj_qk.py```
+
 run ```python traj_sim --dataset_name {dataset_name} --model_path {your_model_path}```
+
 
 # Main Performance
 ## train
