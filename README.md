@@ -27,7 +27,8 @@ run ```python preprocessing/to_nextpoi_qkt.py --dataset_name {dataset_name}```
 # Main Performance
 ## train
 run
-```torchrun --nproc_per_node=8 supervised-fine-tune-qlora.py  \
+```
+torchrun --nproc_per_node=8 supervised-fine-tune-qlora.py  \
 --model_name_or_path {your_model_path} \
 --bf16 True \
 --output_dir {your_output_path}\
