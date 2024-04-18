@@ -58,7 +58,8 @@ run
 ```
 python eval_next_poi.py --dataset_name {DATASET_NAME} --output_dir {your_finetuned_model} --test_file "test_qa_pairs_kqt.txt"
 ```
-
+## Acknowledgement
+This code is developed based on [STHGCN](https://github.com/ant-research/Spatio-Temporal-Hypergraph-Model) and [LongLoRA](https://github.com/dvlab-research/LongLoRA?tab=readme-ov-file).
 ## Citation
 Please cite the following if you use our work.
 ```
