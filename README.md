@@ -1,5 +1,8 @@
-# LLM4POI
-This repository includes the implementation of paper "Large Language Models for Next Point-of-Interest Recommendation".
+# Large Language Models for Next Point-of-Interest Recommendation
+[![License: APACHE-2.0](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Venue:SIGIR 2024](https://img.shields.io/badge/Venue-SIGIR2024-orange)](https://sigir-2024.github.io/index.html)
+
+This repository includes the implementation of paper "[Large Language Models for Next Point-of-Interest Recommendation](https://arxiv.org/pdf/2404.17591)".
 # Install
 1. Clone this repository to your local machine.
 2. Install the enviroment by running
