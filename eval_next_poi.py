@@ -42,6 +42,7 @@ def parse_config():
     parser.add_argument('--context_size', type=int, default=32768, help='context size during fine-tuning')
     parser.add_argument('--peft_model', type=str, default=None, help='')
     parser.add_argument('--flash_attn', type=bool, default=True, help='')
+    parser.add_argument('--model_path', type=str, default='', help='your model path')
     parser.add_argument('--data_path', type=str, default="./test.bin", help='')
     parser.add_argument('--output_dir', type=str, default="/g/data/hn98/peibo/next-poi/outputmodels/finetune-36/", help='')
     parser.add_argument('--dataset_name', type=str, default="nyc",
@@ -159,7 +160,7 @@ def main(args):
     random.seed(seed)
     np.random.seed(seed)
 
-    model_path = '/g/data/hn98/models/llama2/llama-2-7b-longlora-32k-ft/'
+    model_path = args.model_path
     output_dir = args.output_dir
     print("data path", args.data_path)
     print("base model", model_path)
