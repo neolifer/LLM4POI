@@ -1,4 +1,4 @@
-name: /jobfs/114121148.gadi-pbs/venv
+name: llm4poi
 channels:
   - pytorch
   - nvidia
