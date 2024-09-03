@@ -11,11 +11,12 @@ conda env create -f environment.yml
 ```
 Alternatively, you can download the conda environment in linux directly with this [google drive link](https://drive.google.com/file/d/1SKKSwjdEapQh5WOEpv8XkLZTTkhlKDg6/view?usp=sharing).
 Then try:
-'''
+
+```
 mkdir -p llm4poi
 tar -xzf "venv.tar.gz" -C "llm4poi"
 conda activate llm4poi
-'''
+```
 
 3. Download the model from (https://huggingface.co/Yukang/Llama-2-7b-longlora-32k-ft)
 # Dataset
