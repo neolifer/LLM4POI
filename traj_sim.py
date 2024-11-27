@@ -326,9 +326,7 @@ def main(args):
 
                 if len(filtered_queries) == 0:
                     continue
-                # Also filter the trajectory IDs
-                filtered_traj_ids = [traj_id for traj_id, valid in zip(list(other_subset.keys()), valid_indices.cpu().numpy()) if valid]
-        
+
                 # Compute similarities only for the filtered queries
                 batch_similarities = F.cosine_similarity(key_tensor, filtered_queries)
 
@@ -338,7 +336,7 @@ def main(args):
                 # Extract top similarities
                 if top_k > 0:
                     _, top_indices = torch.topk(batch_similarities, k=top_k)
-                    top_queries_traj_ids = [filtered_traj_ids[idx] for idx in top_indices.cpu().numpy()]
+                    top_queries_traj_ids = [list(other_subset.keys())[idx] for idx in top_indices.cpu().numpy()]
                     local_results[traj_id] = top_queries_traj_ids
                 else:
                     local_results[traj_id] = []
