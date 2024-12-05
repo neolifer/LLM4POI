@@ -33,7 +33,6 @@ run ```python preprocessing/run.py```
 run ```python preprocessing/traj_qk.py```
 
 run ```python traj_sim --dataset_name {dataset_name} --model_path {your_model_path}```
-Alternatively, you may directly use the files from traj_sim.zip.
 
 run ```python preprocessing/to_nextpoi_qkt.py --dataset_name {dataset_name}```
 
