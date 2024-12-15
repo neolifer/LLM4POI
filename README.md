@@ -30,7 +30,7 @@ Download the datasets raw data from [datasets](https://www.dropbox.com/scl/fi/te
 # Preprocess
 ```cd preprocessing```
 
-run ```python run.py```
+run ```python run.py -f best_conf/{dataset_name}.yml```
 
 run ```python traj_qk.py```
 
